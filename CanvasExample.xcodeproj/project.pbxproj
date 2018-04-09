@@ -14,6 +14,7 @@
 		8B05882E206C23E500F7231D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B05882C206C23E500F7231D /* LaunchScreen.storyboard */; };
 		8B058839206C23E500F7231D /* CanvasExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B058838206C23E500F7231D /* CanvasExampleTests.swift */; };
 		8B058844206C23E500F7231D /* CanvasExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B058843206C23E500F7231D /* CanvasExampleUITests.swift */; };
+		8B058852206C244F00F7231D /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B058851206C244F00F7231D /* CanvasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8B05883F206C23E500F7231D /* CanvasExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B058843206C23E500F7231D /* CanvasExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasExampleUITests.swift; sourceTree = "<group>"; };
 		8B058845206C23E500F7231D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B058851206C244F00F7231D /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8B05882A206C23E500F7231D /* Assets.xcassets */,
 				8B05882C206C23E500F7231D /* LaunchScreen.storyboard */,
 				8B05882F206C23E500F7231D /* Info.plist */,
+				8B058851206C244F00F7231D /* CanvasViewController.swift */,
 			);
 			path = CanvasExample;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B058826206C23E500F7231D /* ViewController.swift in Sources */,
+				8B058852206C244F00F7231D /* CanvasViewController.swift in Sources */,
 				8B058824206C23E500F7231D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
