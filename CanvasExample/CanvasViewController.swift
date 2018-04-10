@@ -67,6 +67,7 @@ class CanvasViewController: UIViewController {
         if sender.state == .began{
             let imageView = sender.view as! UIImageView
             newlyCreatedFace = UIImageView(image: imageView.image)
+            createdPanGestureRecognizer(targetView: newlyCreatedFace)
            newlyCreatedFace.isUserInteractionEnabled = true
             
         view.addSubview(newlyCreatedFace)
@@ -86,14 +87,15 @@ class CanvasViewController: UIViewController {
     }
     
     func createdPanGestureRecognizer(targetView: UIImageView) {
-        var panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(gesture:)))
+        var panGesture = UIPanGestureRecognizer(target: self, action: #selector(handlePanGesture(_:)))
+        targetView.isUserInteractionEnabled = true
         targetView.addGestureRecognizer(panGesture)
         
     }
     
-    @objc func handlePanGesture(gesture: UIPanGestureRecognizer){
+    @objc func handlePanGesture(_ gesture: UIPanGestureRecognizer){
         let translation = gesture.translation(in: view)
-        newlyCreatedFace.isUserInteractionEnabled = true
+       
         if gesture.state == .began {
             
             newlyCreatedFace = gesture.view as! UIImageView

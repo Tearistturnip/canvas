@@ -12,7 +12,7 @@ The following **required** user stories are complete:
 - [x] User can use a pan gesture to move the position of the tray (+1pt)
 - [x] The tray will continue to the up or down position based on the direction the user was last panning (+1pt)
 - [x] User can use a pan gesture to drag faces from the image tray to the canvas (+1pt)
-- [ ] User can pan faces on the canvas (+1pt)
+- [x] User can pan faces on the canvas (+1pt)
 
 The following **stretch** user stories are implemented:
 
@@ -43,7 +43,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/SwpNhWF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/LVixnCU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
